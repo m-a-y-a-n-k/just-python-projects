@@ -11,6 +11,6 @@ qr = QR.QRCode(
 qr.add_data("https://www.spotify.com/us/download/android/")
 qr.make(fit=True)
 
-image = qr.make_image(fill_color="darkgreen", back_color="seagreen")
+image = qr.make_image(fill_color="darkblue", back_color="dodgerblue")
 
 image.save("download_spotify.png")
